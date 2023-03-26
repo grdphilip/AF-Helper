@@ -1,0 +1,134 @@
+.properties {
+    height: auto;
+    min-height: 500px;
+}
+
+.top-content-box {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 40% 35%;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+    width: auto;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+
+}
+
+.stylingRound {
+
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+table {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+tr {
+    display: flex;
+    align-items: center;
+}
+
+th {
+    color: black;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+
+}
+
+th .p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+th div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+.TeamGreen {
+    width: 125px;
+    height: 30px;
+    background-color: #EFFFE8;
+    border-radius: 5px;
+
+}
+
+.TeamPurple {
+    width: 125px;
+    height: 30px;
+    background-color: #EFEFFF;
+    border-radius: 5px;
+
+}
+
+.backandforth {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .top-content-box {
+        grid-template-columns: 50% 45%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .top-content-box {
+        grid-template-columns: 60% 35%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .top-content-box {
+        grid-template-columns: 100%;
+    }
+
+    .properties {
+        height: auto;
+    }
+
+    table {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 8
+    }
+}

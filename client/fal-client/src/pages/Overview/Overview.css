@@ -1,0 +1,30 @@
+.textbox {
+    margin-top: 100px;
+}
+
+#information {
+    display: grid;
+    justify-content: space-between;
+    margin-top: 100px;
+    grid-template-columns: 20% 25% 25% 24%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(0, 75, 115);
+}
+
+#information article {
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+}
+
+h4 {
+    color:gray;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+    
+}
+
+

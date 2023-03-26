@@ -1,0 +1,52 @@
+.properties {
+    height: 640px;
+}
+
+.stylingTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+ 
+}
+
+.stylingTable table {
+    border: solid 1px #BFBFBF;
+    border-radius: 10px;
+    padding: 7%;
+    width: 90%;
+    margin-right: 10%;
+   
+    
+}
+
+.stylingTable th {
+    font-size: 9px;
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+
+.stylingTable td {
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 400;
+    border-top: solid 1px #EFEFFF;
+    padding-top: 8px;
+    
+    
+}
+
+h3 {
+    margin-top: 3%;
+    margin-left: 10%;
+    font-family: 'Poppins';
+    color: #005B25;
+    font-size: 13px;
+    font-weight: 500;
+}

@@ -1,0 +1,131 @@
+.navbar {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5vw;
+}
+
+.navbar-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.purple {
+    border: 1px solid #33005B;
+    color: #33005B;
+}
+
+.green {
+    border: 1px solid #005B25;
+    color: #005B25;
+}
+
+.nav-button {
+    background-color: white;
+    width: 130px;
+    height: 50%;
+    border-radius: 40px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.small-navbar-content {
+    display: none;
+    width: 100%;
+}
+
+.nav-text {
+    margin: 0;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#hamburger-menu {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger-row {
+    width: 50px;
+    height: 10px;
+    background-color: #33005B;
+    border-radius: 10px;
+}
+
+.hamburger-bar-row {
+    width: 50%;
+    display: flex;
+    padding: 0 5vw;
+}
+
+.hamburger-menu-items {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    margin-top: 80px;
+    height: 230px;
+    width: 260px;
+    padding: 0;
+    background-color: white;
+    transition: transform 0.3s ease-out;
+    border-radius: 0 0 20px 0;
+  }
+  
+  .hamburger-menu-items.open {
+    transform: translateX(300px);
+  }
+
+  .hamburger-menu-item {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin: 10px 0;
+    padding-left: 0.5vw;
+    /* margin: 10px 0px 10px 1vw; */
+  }
+
+@media (max-width: 1120px) {
+
+    .navbar-content {
+        display: none;
+    }
+
+    .small-navbar-content {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+}
